@@ -4,3 +4,4 @@ python manage.py migrate
 python manage.py show_urls
 bgcfsfg
 cp -r ~/Desktop/lms_demo/lms_demo ~/Desktop/lms_demo_backup
+new

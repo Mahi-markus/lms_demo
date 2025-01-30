@@ -1,0 +1,63 @@
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+db.sqlite3
+media
+static
+
+# Django settings
+settings.pyc
+settings.py~
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+*.env
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Unit test / coverage reports
+coverage/
+*.cover
+*.py,cover
+nosetests.xml
+coverage.xml
+*.hypothesis/
+
+# mypy
+.mypy_cache/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# VS Code settings
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Backup files
+*.bak
+*.swp
+*~
+
+translation_exports/

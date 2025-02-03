@@ -40,8 +40,8 @@ class TranslationView(APIView):
         try:
             # Split the sites string into a list
             site_names = request.data.get('site', '').split(',')
-            if not site_names:
-                return Response({"error": "No sites provided"}, status=status.HTTP_404_NOT_FOUND)
+            # if not site_names:
+            #     return Response({"error": "No sites provided"}, status=status.HTTP_404_NOT_FOUND)
 
             # Create directory for storing zip files if it doesn't exist
             upload_dir = os.path.join(settings.MEDIA_ROOT, 'translation_exports')
